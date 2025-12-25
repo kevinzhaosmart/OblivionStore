@@ -1,0 +1,42 @@
+.os-header {
+  padding: 2rem 0;
+}
+
+.os-header__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.os-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: #6b7cff;
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+}
+
+.os-title {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.os-subtitle {
+  margin: 0.5rem 0 0;
+  max-width: 34rem;
+  color: #455269;
+}
+
+@media (max-width: 768px) {
+  .os-header__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
